@@ -1,8 +1,10 @@
 
+--cria a database caso exista apaga antes
 DROP DATABASE IF EXISTS stars_db;
 
 CREATE DATABASE stars_db;
 
+--entra na database
 \c stars_db;
 
 --tabela para o teste

@@ -1,13 +1,13 @@
-import psycopg2
+import psycopg2 #surpreendentemente esse "erro" nao deu erro
 
-conn = None # Inicializa a conexão como None
+conn = None # Inicializa a conexao como None
 
 try:
     # conecta ao banco de dados
     conn = psycopg2.connect(
         dbname="stars_db",
         user="postgres",
-        password="postgres", # A senha que você definiu
+        password="postgres", 
         host="localhost",
         port="5432"
     )
